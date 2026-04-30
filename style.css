@@ -291,66 +291,35 @@ label {
 }
 /* RESPONSIVE */
 @media (max-width: 360px) {
-  .container {
-    padding: 0.75rem;
-  }
-
   .card {
-    padding: 1rem !important;
+    padding: 20px;
   }
 
-  .login-title {
-    font-size: 1.2rem !important;
+  h2 {
+    font-size: 20px;
   }
 
-  .logo {
-    width: 44px;
-    height: 44px;
+  .btn {
+    font-size: 13px;
+    padding: 10px;
   }
-
-  .input,
-  .input1,
-  .btn1,
-  .btn2,
-  .primary {
-    padding: 10px 12px !important;
-  }
-
-  label,
-  .password {
-    font-size: 0.7rem;
-    margin-top: 0.8rem;
-  }
-
-  .password-row a {
-    font-size: 0.7rem;
-  }
-
-  .divider {
-    margin-top: 1rem;
-    font-size: 0.65rem;
-  }
-
-  .footer-box {
-    font-size: 0.65rem;
-    padding: 8px;
-    margin-top: 0.8rem;
-  }
-
   .bottom-footer {
-    padding: 10px !important;
+    flex-direction: column;
+    text-align: center;
+    padding: 12px;
+    gap: 8px;
+  }
+
+  .bottom-footer .right {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .bottom-footer .right a {
-    margin: 0 6px;
-    font-size: 0.6rem;
+    margin: 0 8px;
+    font-size: 11px;
   }
-
-  .bottom-footer .left {
-    font-size: 0.55rem;
-  }
-
-  button {
-    font-size: 0.75rem !important;
-  }
+  
+}
 }
