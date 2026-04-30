@@ -289,7 +289,7 @@ label {
   
 }
 /* RESPONSIVE */
-@media (max-width: 480px) {
+@media (max-width: 360px) {
   .card {
     padding: 20px;
   }
